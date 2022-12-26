@@ -1,7 +1,7 @@
 # Riptide
 A unique site for combating web filters and regaining internet freedom. Riptide features a clean fancy navagation with a easy use and built in inspect element using [avo](https://github.com/FogNetwork/Avo)
 
-![screenshot](https://user-images.githubusercontent.com/81875430/147287746-2e259094-cdb9-41ab-81f1-a35b7fef4c3e.png)
+![screenshot](file:///home/chronos/u-86cd62bd7537226f25481c7fb9d1caa3e2b820bd/MyFiles/Downloads/Screenshot%202022-12-26%202.22.58%20PM.png)
 
 ## Setup
 
