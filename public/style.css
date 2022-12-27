@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
-  font-family: Roboto;
+  font-family: 'Comfortaa', cursive;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .urlbar {
-  background: #2493ff;
+  background: darkslategray;
   height: 37px;
   position: fixed;
   top: 40px;
@@ -32,8 +32,8 @@ body {
 }
 
 .search {
-  background: #2493ff;
-  color: black;
+  background: #464444;
+  color: white;
   height: 26px;
   outline: none;
   width: 100%;
@@ -53,7 +53,7 @@ body {
   border: 0;
   font-size: 20px;
   color: black;
-  background: transparent;
+  background: white;
   cursor: pointer;
   border-radius: 50%;
   height: 26px;
@@ -94,14 +94,14 @@ body {
 .navcontrols {
   display: flex;
   align-items: center;
-  background: #2493ff;
+  background: darkslategrey;
   margin-bottom: 5px;
   height: 37px;
 }
 
 .morebtn {
-  background: #2493ff;
-  color: black;
+  background: darkslategray;
+  color: white;
   height: 37px;
   outline: none;
   border: none;
@@ -116,7 +116,7 @@ body {
   position: fixed;
   top: 82px;
   right: 5px;
-  background: #2493ff;
+  background: #000000;
   width: 200px;
   height: 292px;
   z-index: 15;
@@ -124,7 +124,7 @@ body {
 }
 
 .moreitem {
-  color: black;
+  color: white;
   padding: 5px;
   text-align: left;
   cursor: pointer;
@@ -139,7 +139,7 @@ body {
 }
 
 .moreitem:hover {
-  background: #5db0ff;
+  background: #000000;
 }
 
 #tabs {
@@ -151,7 +151,7 @@ body {
 }
 
 .tab {
-  background: darkslategray;
+  background: #272e35;
   margin: 5px;
   width: 200px;
   height: 30px;
@@ -161,6 +161,9 @@ body {
   user-select: none;
   position: relative;
   overflow: hidden;
+		border-width: 2px;
+	border-color: darkslategray;
+	border-style: solid;
 }
 
 .closetab {
@@ -174,13 +177,13 @@ body {
   position: absolute;
   right: 0;
   border-radius: 0 5px 5px 0;
-  background: darkslategray;
+  background: #272e35;
   font-size: 15px;
 }
 
 .newtab {
   user-select: none;
-  background: #2493ff;
+  background: none;
   margin: 5px;
   width: 25px;
   height: 25px;
@@ -199,7 +202,7 @@ body {
 }
 
 .activetab {
-  background: #2493ff;
+  background: darkslategray;
   color: black;
 }
 
@@ -209,3 +212,11 @@ body {
   padding-left: 5px;
   box-sizing: border-box;
 }
+button {
+		width: fit-content;
+    height: 30px;
+		border-radius: 10px;
+		color: white;
+    border-style: solid;
+	margin-bottom: 5px;
+	background: grey;
