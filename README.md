@@ -4,7 +4,7 @@ Basically an improved version of riptide. LTBPEM features a clean fancy navagati
 ![screenshot](https://raw.githubusercontent.com/GalacticNetwork/LTBPEM/master/Screenshot%202022-12-26%202.22.58%20PM.png)
 
 ## Setup
-### Please fork githu if using railway
+### Please fork github if using railway
 <a target="_blank" href="https://railway.app/new/template?template=https://github.com/GalacticNetwork/LTBPEM"><img alt="Deploy on Railway" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg"></a>
 <a href="https://heroku.com/deploy?template=https://github.com/GalacticNetwork/LTBPEM"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
 <a href="https://repl.it/github/GalacticNetwork/LTBPEM"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
