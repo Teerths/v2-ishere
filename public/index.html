@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A unique site for combating web filters and regaining internet freedom">
-    <title>Riptide</title>
+    <meta name="description" content="Get blazingly Fast Math Help!!!">
+    <title>LTBFEM</title>
+    <link rel="icon" href="img/LTBPEM.png" />
+  <link rel="shortcut icon" href="img/LTBPEM.png" />
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -16,7 +18,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <div id="tabs">
-<div class="tab activetab" url="/pages/home"><div class="tabtext" onmousedown="tabclicked(this)">New Tab</div><div class="closetab activetab" onclick="removetab(this.parentElement)"><i class="fa-solid fa-xmark"></i></div></div>
+<div class="tab activetab" url="/pages/home"><div class="tabtext" onmousedown="tabclicked(this)">New Rocket Tab</div><div class="closetab activetab" onclick="removetab(this.parentElement)"><i class="fa-solid fa-xmark"></i></div></div>
 <button class="newtab" onclick="newtab()"><i class="fa-solid fa-plus"></i></button>
 </div>
 
@@ -28,7 +30,9 @@
 <button class="button" id="forward" onclick="forward()"><span class="material-icons-outlined">arrow_forward</span></button>
 <button class="button" id="reload" onclick="reload()"><span class="material-icons-outlined">refresh</span></button>
 <button class="button" id="home" onclick="home()"><span class="material-icons-outlined">home</span></button>
-
+<button class="button" id="home" onclick="settings()"><span class="material-icons-outlined">settings</span></button>
+	<button class="button" id="home" onclick="gs()"><span class="material-icons-outlined">🎮</span></button>
+  <button class="button" id="home" onclick="dsc()"><span class="material-icons-outlined">discord</span></button>
 </div>
 
 <input id="search" class="search" placeholder="Search or type a URL" autocomplete="off"></input>
@@ -43,13 +47,16 @@
 <div class="moreitem" onclick="printweb()">Print</div>
 <div class="moreitem" onclick="">History</div>
 <div class="moreitem" onclick="">Extensions</div>
-<div class="moreitem" onclick="">Settings</div>
-<div class="moreitem" onclick="">About</div>
+<div class="moreitem" onclick="aboutweb()">About</div>
+  <div class="moreitem" onclick="ab()">About:Blank</div>
 <div class="moreitem homeexit" onclick="window.close()">Exit</div>
 </div>
 
 <iframe width="100%" height="732px" src="/pages/home" id="web" onLoad="updateweb()" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation allow-modals"></iframe>
 
 <script src="/index.js"></script>
+<script src="/js/main.js"></script>
+        <script src="/js/tab.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
