@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
-font-family: Roboto;
+font-family: 'Comfortaa'; cursive;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   margin: 0;
   margin-top: 220px;
   font-size: 80px;
-  color: #2493ff;
+  color: #5d7389;
 }
 
 .searchbox {
@@ -27,7 +27,7 @@ body {
 
 #search {
   background: transparent;
-  border: 1px solid #303134;
+  border: 1px solid #202124;
   border-radius: 24px;
   height: 46px;
   width: 584px;
@@ -35,7 +35,7 @@ body {
   padding-left: 47px;
   font-size: 16px;
   padding-bottom: 2px;
-  color: #2493ff;
+  color: white;
 }
 
 #search:hover {
@@ -51,5 +51,5 @@ body {
 }
 
 ::placeholder {
-  color: #2493ff;
+  color: #202124;
 }
