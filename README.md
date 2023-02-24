@@ -11,8 +11,8 @@ Basically an improved version of riptide. LTBPEM features a clean fancy navagati
 <a href="https://glitch.com/edit/#!/import/github/GalacticNetwork/LTBPEM"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
 
 ```sh
-git clone https://github.com/FogNetwork/LTBPEM
-cd Riptide
+git clone https://github.com/GalacticNetwork/LTBPEM
+cd LTBPEM
 npm install
 npm start
 ```
