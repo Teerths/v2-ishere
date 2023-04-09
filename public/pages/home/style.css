@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
-font-family: 'Comfortaa'; cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
 body {
-  background: #202124;
+  background: rgb(226, 226, 226);
 }
 
 .title {
   margin: 0;
   margin-top: 220px;
   font-size: 80px;
-  color: #5d7389;
+  color: #000000;
 }
 
 .searchbox {

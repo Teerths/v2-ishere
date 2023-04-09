@@ -8,34 +8,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="index.js"></script>
+    <style>
+        .buttons {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 10px;
+            background-color: rgb(226, 226, 226);
+            border-radius: 10px 0 0 0;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px;
+            color: #fff;
+            background-color: rgb(211, 209, 209);
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-<center>
-
-<h1 class="title">LTBPEM</h1>
-
-
-<div class="searchbox">
-<svg class="searchicon" height="20px" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#2493ff" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-
-<input autofocus id="search" placeholder="type a URL" spellcheck="false" autocomplete="off">
-</center>
-  <div align="center">
-  <a class="w3-medium" href="/pages/credits">Credits</a>
-    <a class="w3-medium" href="https://dsc.gg/gnetwork">Discord</a>
-
+    <center>
+        <h1 class="title">ProxD</h1>
+        <div class="searchbox">
+            <svg class="searchicon" height="20px" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#2493ff" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <input autofocus id="search" placeholder="" spellcheck="false" autocomplete="off">
+        </div> 
+        <div class="buttons">
+            <a class="w3-medium" href="/pages/credits">Credits</a>
+            <a class="w3-medium" href="https://discord.gg/tethershub">Discord</a>
+        </div>
+    </center>
 </body>
 </html>
-<script>
-/* Link to site */
-document.getElementById("mainSite").addEventListener("click", () =>{
-      document.getElementById("search").value = "https://www.google.com/search?q=";
-   });
-/* Games */
-document.getElementById("games").addEventListener("click", () =>{
-      document.getElementById("search").value = "https://radon.games";
-   });
-</script>
-<script>
-window.open("https://example.com")
-</script>
